@@ -21,6 +21,7 @@ export class HomePage {
 
   }
 
+  // Parsing in value into this.location
   ionViewWillEnter(){
     this.storage.get('location').then((val) => {
       if(val != null){
